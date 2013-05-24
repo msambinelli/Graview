@@ -1,0 +1,20 @@
+Graview
+========
+
+Graview é um visualizador de grafos simples.
+
+Durante um curso de ciência da computação, implementamos diversos
+algoritmos para manipular grafos: Dijkstra, Floyd-Warshall,
+Bellman-Ford, Prim, Kruskal e etc. O formato de entrada para esse
+programas geralmente é o mesmo: um inteiro *n* com o número de
+vértices, um inteiro *m* com o número de arestas e então segue *m*
+linhas descrevendo-se os arcos/arestas. Para visualizar esses grafos
+tinhamos duas opções:
+
+* Desenha-lo na mão;
+* Escrever o grafo na liguagem dot.
+
+Para resolver esse problema, eu escrevi esse pequeno programa.
+
+Instalação
+----------
