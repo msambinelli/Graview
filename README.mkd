@@ -3,6 +3,8 @@ Graview
 
 Graview é um visualizador de grafos simples.
 
+![alt graphview](doc/picture.png)
+
 Durante um curso de ciência da computação, implementamos diversos
 algoritmos para manipular grafos: Dijkstra, Floyd-Warshall,
 Bellman-Ford, Prim, Kruskal e etc. O formato de entrada para esse
@@ -18,3 +20,33 @@ Para resolver esse problema, eu escrevi esse pequeno programa.
 
 Instalação
 ----------
+
+### Ubuntu/Linux Mint/Debian ###
+
+Instale a dependência
+
+	sudo aptitude install python-pydot
+
+Baixe o Graview
+
+	wget https://github.com/msambinelli/Graview/archive/master.zip
+    unzip master.zip
+    
+Agora basta usar :)
+
+Formato do arquivo de entrada
+------------------------------
+
+O formato do arquivo de entrada é: a primeira linha contêm 2 números
+inteiros, o primeiro é o número de vértices *n* e o segundo o número de
+arestas *m*. Então segue *m* linhas descrevendo os arcos. Cada linha
+possui o seguinte formato: dois número inteiros
+separados por espaço *u* e *v* (0 <= *u*, *v* <= *n*) descrevendo as
+arestas (ou arcos se a opção *-d* foi passada para o
+programa). Opcionalmente pode haver um terceiro parâmetro em cada
+linha que será a label da aresta/arco.
+
+Opções
+-------
+
+Para conhecer todas as opções do Graview passe o argumento *-h*.
